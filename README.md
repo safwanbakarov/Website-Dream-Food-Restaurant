@@ -82,6 +82,31 @@ Preferred: **Cloudflare Pages**, using a free `*.pages.dev` URL for the MVP.
 
 A paid custom domain is optional and can be configured later by the project owner/client.
 
+
+## Contribution and approval workflow
+
+**`main` is the approved production branch. AI agents and developers must not work directly on `main`.**
+
+Required workflow:
+
+1. Create a dedicated branch for the assigned task, for example:
+   - `replit/homepage`
+   - `grok/menu`
+   - `cline/mobile-fixes`
+   - `qwen/seo`
+2. Make and test changes on that branch.
+3. Open a Pull Request into `main`.
+4. The project owner must review and approve the Pull Request before merge.
+5. Only approved changes may be merged into `main`.
+6. Delete the feature branch after merge when it is no longer needed.
+7. Update `STATUS.md` and the relevant GitHub Issue as part of the Pull Request.
+
+**Do not bypass this workflow by pushing directly to `main`.**
+
+Until GitHub branch protection/rules are enabled in repository settings, this rule is documented policy rather than a hard technical block. Once protection is enabled, direct pushes to `main` should be rejected by GitHub.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full branch and Pull Request policy.
+
 ## Current status
 
 See [STATUS.md](STATUS.md).
