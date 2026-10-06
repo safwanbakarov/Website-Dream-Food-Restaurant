@@ -1,7 +1,7 @@
 # Project Status
 
 **Overall status:** INCOMPLETE / OWNER REVIEW REQUIRED  
-**Current phase:** M03 static MVP implemented on `chatgpt/homepage-baseline`; awaiting review in PR #5.
+**Current phase:** M03 static website implementation is ready for review in PR #5.
 
 ## Milestones
 
@@ -14,11 +14,12 @@
 
 ## M03 implementation
 
-- Static routes: Home, Menu, Our Story, Gallery, Location & Hours, Order, Contact/Reserve, Journal, and an unpublished article template.
-- Framework/build system: none; the repository root is the static output directory.
+- Routes: Home, Menu, Our Story, Gallery, Location & Hours, Order Online, and Contact/Reservations.
+- No journal, articles, CMS, or active article-posting feature is included.
+- Framework/build system: none; repository root is the static output directory.
 - Build command and environment variables: none.
-- Verification completed: JavaScript syntax, page headings, current-page navigation, local links/assets, JSON syntax, unresolved data values, and reduced-motion CSS.
-- Production build, final browser QA, M04 verification, M05 SEO/accessibility checks, and M06 deployment are still outstanding.
+- Verification completed: JavaScript syntax, page headings, navigation states, local links/assets, JSON syntax, unresolved data values, and reduced-motion CSS.
+- Browser screenshots and full visual QA are still outstanding.
 
 ## M04 facts that must be verified
 
