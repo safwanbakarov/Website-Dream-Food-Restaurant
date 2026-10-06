@@ -1,17 +1,30 @@
 # Project Status
 
-**Overall status:** 🚧 INCOMPLETE / HANDOFF-READY  
+**Overall status:** 🚧 INCOMPLETE / REVIEW REQUIRED  
 **Documentation reset:** 29 September 2026  
-**Current phase:** Handover documentation prepared; production build not yet completed.
+**Current phase:** M03 homepage baseline implemented on `chatgpt/homepage-baseline`; awaiting owner review before downstream implementation continues.
 
 ## Milestones
 
 - [ ] M01 — Source pack & requirements frozen
 - [ ] M02 — Information architecture & design handoff ready
-- [ ] M03 — Static MVP implemented by build AI/developer
+- [ ] M03 — Static MVP implemented by build AI/developer (homepage baseline drafted; remaining M03 scope still open)
 - [ ] M04 — Menu, restaurant facts & conversion links verified
 - [ ] M05 — QA, accessibility, performance & SEO pass
 - [ ] M06 — Free deployment, handover & launch evidence
+
+## Homepage baseline
+
+- Static homepage shell: `index.html`
+- Styles: `assets/css/styles.css`
+- Mobile navigation: `assets/js/main.js`
+- Design and Cloudflare Pages handoff: `docs/HOMEPAGE_BASELINE.md`
+- Cloudflare Pages build command: none
+- Cloudflare Pages output directory: repository root
+- Environment variables: none
+- Production deployment: not performed
+
+The menu, story, atmosphere and visit areas are homepage previews only. The separate M03 pages and M04 verification are not complete. Restaurant facts and imagery still pending below remain visibly marked in the interface.
 
 ## Launch blockers
 
