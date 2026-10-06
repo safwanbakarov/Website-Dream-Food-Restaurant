@@ -1,0 +1,22 @@
+{
+  "status": "draft_unverified",
+  "source": "docs/MENU_REFERENCE.md",
+  "categories": [
+    "Rice dishes",
+    "Madghout",
+    "Hot dishes",
+    "BBQ grill",
+    "Kebabs",
+    "Shawarma slices",
+    "Fries",
+    "Sandwiches",
+    "Spaghetti",
+    "Soups",
+    "Salads",
+    "Kunafa & sweets",
+    "Fresh juices / smoothies",
+    "Cold & hot drinks"
+  ],
+  "items": [],
+  "verificationNote": "Working reference only. Confirm names, prices, ingredients, availability and images before publication."
+}
