@@ -1,0 +1,14 @@
+{
+  "name": "Dream Food Restaurant",
+  "area": "Maluri",
+  "city": "Kuala Lumpur",
+  "address": null,
+  "openingHours": null,
+  "phone": null,
+  "whatsapp": null,
+  "foodpandaUrl": null,
+  "grabfoodUrl": null,
+  "reservationUrl": null,
+  "halalCertification": null,
+  "verificationNote": "Null values are intentionally unresolved until M04. Do not publish inferred business facts."
+}
